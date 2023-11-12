@@ -1,2 +1,3 @@
-2023/10/05-18:39:26.734 9414 Creating DB C:/Users/ASUS/Documents/Unreal Projects/OSC01-4_TextTest 5.3/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2023/10/05-18:39:26.745 9414 Reusing MANIFEST C:/Users/ASUS/Documents/Unreal Projects/OSC01-4_TextTest 5.3/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/11/08-20:30:03.504 a94 Reusing MANIFEST C:/GIt/ProjectBW/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/11/08-20:30:03.511 a94 Recovering log #3
+2023/11/08-20:30:03.512 a94 Reusing old log C:/GIt/ProjectBW/Saved/webcache_4430\Local Storage\leveldb/000003.log 
