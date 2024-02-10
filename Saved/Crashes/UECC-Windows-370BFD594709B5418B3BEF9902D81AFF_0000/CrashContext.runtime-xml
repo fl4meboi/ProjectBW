@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>AD149D634A84420F520219882B616B52</ExecutionGuid>
+		<CrashGUID>UECC-Windows-370BFD594709B5418B3BEF9902D81AFF_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 34796 concurrently with 1 writers on thread 39140: Current thread 34796 callstack: 0x00007ff826259f11 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff826275b9c UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff82624b120 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff826242a74 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff8262651e8 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff826258b0c UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ff84067227d UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff84067afd3 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff840688cd5 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff840688a7c UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff8406680e2 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff8406b08c2 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff840678b60 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff84085f773 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff840c94e32 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff840c88667 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ff903197344 KERNEL32.DLL!UnknownFunction [] 0x00007ff9035226b1 ntdll.dll!UnknownFunction [] Writer thread 39140 callstack: 0x00007ff90356e154 ntdll.dll!UnknownFunction [] 0x00007ff9034d8a8c ntdll.dll!UnknownFunction [] 0x00007ff90319c748 KERNEL32.DLL!UnknownFunction [] 0x00007ff903194e59 KERNEL32.DLL!UnknownFunction [] 0x00007ff903193b55 KERNEL32.DLL!UnknownFunction [] 0x00007ff900ea3700 KERNELBASE.dll!UnknownFunction [] 0x00007ff903195501 KERNEL32.DLL!UnknownFunction [] 0x00007ff9034e4eda ntdll.dll!UnknownFunction [] 0x00007ff9034e79c4 ntdll.dll!UnknownFunction [] 0x00007ff9034e4c14 ntdll.dll!UnknownFunction [] 0x00007ff90352fd53 ntdll.dll!UnknownFunction [] 0x00007ff90352fa80 ntdll.dll!Unknow</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>42444</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-AlphaWaveTest</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.3930]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>ko-KR</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_5.3/</RootDir>
+		<MachineId>6A4CDD58408365042C8F9FA2E18B02DB</MachineId>
+		<LoginId>6a4cdd58408365042c8f9fa2e18b02db</LoginId>
+		<EpicAccountId>158c13ad0df34dff92887d87e544346f</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 2070 SUPER</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.3930]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34005581824</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>64070352896</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>12864143360</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>18676523008</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1480843264</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1480847360</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1673191424</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1673191424</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>3</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>UnrealEditor-LiveCoding 0x00007ff826240000 + b120 UnrealEditor-Core 0x00007ff840610000 + 228821 Unknown 0x0000000000000000 + bdb30</PCallStack>
+		<PCallStackHash>2E4421B3798EDFCD07FE74D22C63C6E10D9876F5</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ff900e20000 + 2cf19 Unknown 0x0000000000000000 + 10002 mdnsNSP 0x000000005a110000 + 2174b652a0 UnrealEditor-LiveCoding 0x00007ff826240000 + b120 UnrealEditor-Core 0x00007ff840610000 + 228821 Unknown 0x0000000000000000 + bdb30</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>34796</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638426988884130000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 2070 SUPER</RHI.AdapterName>
+		<RHI.UserDriverVersion>546.09</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.4609</RHI.InternalDriverVersion>
+		<RHI.DriverDate>11-2-2023</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>1E84</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>

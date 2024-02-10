@@ -1,3 +1,19 @@
-[1108/203105.904:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
-[1108/203105.909:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
-[1108/203203.636:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0208/212418.457:ERROR:os_crypt_win.cc(93)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+[0208/212420.436:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0208/212420.437:ERROR:entry_impl.cc(1075)] No file for c1030002
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:ERROR:entry_impl.cc(1075)] No file for c10300ce
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:ERROR:entry_impl.cc(1075)] No file for c10300d0
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.437:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212420.438:WARNING:storage_block-inl.h(146)] Failed data load.
+[0208/212421.026:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
+[0208/212431.195:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0208/212618.692:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
